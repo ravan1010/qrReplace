@@ -46,11 +46,9 @@ export default function App() {
       {qr && <img src={qr} alt="qr" width="200"/>}
 
       <br/><br/>
-  <a href='upi://pay?pa='>
       <button onClick={shareImage}>
      Share QR 
       </button> 
-  </a>
 
     </div>
 
