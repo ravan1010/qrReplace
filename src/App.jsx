@@ -8,7 +8,7 @@ export default function App() {
   useEffect(()=>{
 
     QRCode.toDataURL(
-      "upi://pay?pa=suhasnayaj-1@oksbi&pn=Suhas%2010"
+      "upi://pay?pa=suhasnayaj-1@oksbi"
     ).then(setQr);
 
   },[]);
