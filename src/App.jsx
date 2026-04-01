@@ -48,7 +48,7 @@ export default function App() {
       <br/><br/>
 
       <button onClick={shareImage}>
-      <a href='upi://'> Share QR </a>
+      <a href='upi://pay?pa='> Share QR </a>
       </button>
 
     </div>
